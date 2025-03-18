@@ -1,2 +1,3 @@
 # 2주차 학습내용
-+ InfluxDB
++ InfluxDB ~ arduino CONNECT
++ localhost DB useage
