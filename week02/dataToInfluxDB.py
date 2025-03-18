@@ -1,4 +1,5 @@
 import serial
+#influxDB 사용해 데이터를 저장할 것이므로 import
 from influxdb_client import InfluxDBClient
 #time.sleep 사용을 위한 time
 import time
@@ -11,7 +12,7 @@ timeout = 2
 influxdb_url = "http://localhost:8086"
 influxdb_token = "yourToken" #토큰은 항상 숨길것
 influxdb_org = "test" 
-influxdb_bucket = "dust" #데이터 저장할 bucket 이름
+influxdb_bucket = "dust" #데이터 저장할 bucket 이름(influxDB에 저장될 이름)
 
 #influxDB 클라이언트 초기화
 client = InfluxDBClient(url=influxdb_url, token=influxdb_token, org=influxdb_org)
