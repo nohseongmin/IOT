@@ -5,10 +5,10 @@
   - SDA(data), SCL(clock) 각각 1개의 선만 있으면 통신가능
   - 하나의 master에 112개(2^7-15(예약))의 slave(센서) 가능
   - 풀업 저항 필요(신호선을 항상 high(1)로 유지하는 역할) = LOW를 제어 가능하기 때문
-+ LCD ~ arduino connect ( LiquidCrystal_I2C )
-+ combine with week1 practice
+
 
 # LCD.C
++ LCD ~ arduino connect ( LiquidCrystal_I2C )
 ```c++
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
@@ -36,6 +36,7 @@ void loop() {
 ```
 
 # LCD_practice.c
+ + 1주차 초음파 센서 내용을 더해 응용
 ```c++
 //초음파 센서로 거리값을 받아 LCD로 출력
 #include <Wire.h>
