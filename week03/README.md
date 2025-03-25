@@ -9,7 +9,7 @@
 + combine with week1 practice
 
 # LCD.C
-'''
+```
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
@@ -33,4 +33,4 @@ void loop() {
     delay(150);
   }
 }
-'''
+```
