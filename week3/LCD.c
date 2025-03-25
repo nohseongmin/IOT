@@ -1,6 +1,7 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
+//similar with java(lang)'s class
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 void setup(){
