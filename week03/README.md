@@ -9,7 +9,7 @@
 + combine with week1 practice
 
 # LCD.C
-```
+```c++
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
