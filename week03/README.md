@@ -6,4 +6,4 @@
   - 하나의 master에 112개(2^7-15(예약))의 slave(센서) 가능
   - 풀업 저항 필요(신호선을 항상 high(1)로 유지하는 역할) = LOW를 제어 가능하기 때문
 + LCD ~ arduino connect ( LiquidCrystal_I2C )
-+ 
++ combine with week1 practice
