@@ -3,6 +3,7 @@
 + arduino install + practice
 
 ## tinkercad practice
+![image](https://github.com/user-attachments/assets/d4b555c5-0abb-450e-9b19-2a0f02ec02c6)
 
 ## arduino practice
 ```c
