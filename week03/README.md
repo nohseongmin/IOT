@@ -1,4 +1,4 @@
-# IOT week3 practice
+# week3
 + I2C protocol 
   - Inter-Integrated Circuit
   - 단 이중통신 사용
