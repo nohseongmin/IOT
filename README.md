@@ -7,6 +7,6 @@
 + week 02
   - InfluxDB ~ arduino CONNECT
 + week 03
-  - arduino training
+  - I2C protocol + arduino training
 + week 04
   - theory class
