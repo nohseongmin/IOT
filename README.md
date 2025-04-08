@@ -10,3 +10,6 @@
   - I2C protocol + arduino training
 + week 04
   - theory class
++ week 05
+  - theory class
+  - cygwin linux training
