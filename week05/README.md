@@ -1,9 +1,5 @@
 
 # week 05
-## 실습내용
-![image](https://github.com/user-attachments/assets/d4f80893-639e-4500-94dd-3c7aac70eb9b)
-![image](https://github.com/user-attachments/assets/2aea8808-7e11-4261-ba60-fed7eb3ca442)
-![image](https://github.com/user-attachments/assets/7b393307-8ef1-4d79-9118-552c4af73126)
 
 ## 빅데이터의 이해
 ### 빅데이터의 의미
@@ -20,13 +16,13 @@
 - 비정형 데이터의 증가 -> 정형화 기술 필요
 
 ## 빅데이터의 처리
-1. 수집
+- 수집
   - 내부 데이터 : 주로 정형화(적재) 데이터, 사내 데이터 등
   - 외부 데이터 : 주로 비정형화된 데이터, 인터넷을 통해 수집한 데이터 등
-3. 저장 : 비정형 데이터를 정형 데이터로 저장하는 기술
-4. 처리 : 수집한 데이터를 정제하는 과정
-5. 분석 : 의미 있는 지표로 분석
-6. 표현 : 시각화
+- 저장 : 비정형 데이터를 정형 데이터로 저장하는 기술
+- 처리 : 수집한 데이터를 정제하는 과정
+- 분석 : 의미 있는 지표로 분석
+- 표현 : 시각화
 
 ### 빅데이터의 처리 - 수집
 - 로그 수집기 : 웹 로그, DB 로그 등 로그 수집
@@ -71,3 +67,9 @@
   - 자연어 처리 기술 활용, 비정형 텍스트 집합에서 가치 창출
   - 데이터 수집 -> 전처리 및 가공 -> 자연어 처리 -> TDM 구축 -> 분석 및 시각화 / 감성 분석 의 단계로 진행
   - 요약,분류,군집,추출의 과정을 따름
+
+
+## 실습내용
+![image](https://github.com/user-attachments/assets/d4f80893-639e-4500-94dd-3c7aac70eb9b)
+![image](https://github.com/user-attachments/assets/2aea8808-7e11-4261-ba60-fed7eb3ca442)
+![image](https://github.com/user-attachments/assets/7b393307-8ef1-4d79-9118-552c4af73126)
