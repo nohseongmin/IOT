@@ -13,3 +13,12 @@
 + week 05
   - theory class
   - cygwin linux training
++ week 06
+  - theory class
++ week 07
+  - middle test
++ week 08
+  - Raspberry Pi OS install
++ week 09
+  - TelegramBot ~ Raspberry Pi(& camera) CONNECT
+  - OPENCV2 practice
