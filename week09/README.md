@@ -16,7 +16,8 @@
 1. Timerbot.py 실행. ( 봇 구동 ) 
 2. Telegram bot과 채팅 -> /start로 구동 확인
 ![KakaoTalk_20250518_004431105](https://github.com/user-attachments/assets/726b0e25-bd34-4205-92a4-40bf5fdd7f54)
-4. 정상 작동 확인, timerbot.py 파일 내의 핸들러 수정 및 적용 확인
-5. /set <time> 에 사진 찍어서 보내는 기능 추가 ( alarm 기능에 사진 찍는 기능을 추가해 설정한 시간이 다 되면 사진을 찍어 Telegram bot으로 전송하는 방식 )
-6. 채팅을 통한 기능 확인
+3. 정상 작동 확인, timerbot.py 파일 내의 핸들러 수정 및 적용 확인
+4. /set <time> 에 사진 찍어서 보내는 기능 추가 ( alarm 기능에 사진 찍는 기능을 추가해 설정한 시간이 다 되면 사진을 찍어 Telegram bot으로 전송하는 방식 )
+5. 채팅을 통한 기능 확인<br/>
 ![KakaoTalk_20250518_004431538](https://github.com/user-attachments/assets/a80a1208-7d28-456a-aa63-58ebec9435ba)
+![KakaoTalk_20250518_010806732](https://github.com/user-attachments/assets/b4235255-5df1-4ac9-8ef9-1847a714a4a9)
