@@ -1,23 +1,55 @@
-# 10주차 실습
-1. OPENCV2 설치
-2. Telegram Bot API KEY로 연동
-3. Bot Sample - Timerbot 사용 실습
+# 11주차 실습
+1. InFluxDB 설치
+2. grafana 설치
+3. 데이터 시각화 실습
+4. 텔레그램 봇 실습
 
-## OPENCV2 설치
-1. openCV2 Doc >> https://github.com/opencv/opencv
-2. 전체를 설치하기에는 용량이 너무 큼. 파이썬 라이브러리로 파이썬에서만 동작할 수 있도록 설치.<br/>
-```pip3 install opencv-python```
+## InfluxDB 설치
+1. 설치
+```
+ sudo apt-get update && sudo apt-get install influxdb -y
+```
+2. 서비스 스타트
+```
+sudo service influxdb status
+```
+3. 데이터베이스 생성
+```
+>create database <데이터베이스이름>
+확인 : show databases 
+```
 
-## Telegram Bot API KEY로 연동
-1. Telegram botfather 로 봇 생성, API KEY 복사
-2. samples - timerbot.py 의 API KEY를 복사한 API KEY로 대체
+## grafana 설치
+1. 설치
+```
+sudo apt-get install -y apt-transport-https software-properties-common wget
+```
+2. 서버 스타트
+```
+sudo systemctl start grafana-server
+```
+3. 라이브러리 설치
+```
+pip install influxdb
+```
+4. 접속
+  - 크롬미니 >> localhost:3000
+  - 로그인
 
-## Bot Sample - Timerbot 사용 실습
-1. Timerbot.py 실행. ( 봇 구동 ) 
-2. Telegram bot과 채팅 -> /start로 구동 확인
-![KakaoTalk_20250518_004431105](https://github.com/user-attachments/assets/726b0e25-bd34-4205-92a4-40bf5fdd7f54)
-3. 정상 작동 확인, timerbot.py 파일 내의 핸들러 수정 및 적용 확인
-4. /set <time> 에 사진 찍어서 보내는 기능 추가 ( alarm 기능에 사진 찍는 기능을 추가해 설정한 시간이 다 되면 사진을 찍어 Telegram bot으로 전송하는 방식 )
-5. 채팅을 통한 기능 확인<br/>
-![KakaoTalk_20250518_004431538](https://github.com/user-attachments/assets/a80a1208-7d28-456a-aa63-58ebec9435ba)
-![KakaoTalk_20250518_010806732](https://github.com/user-attachments/assets/b4235255-5df1-4ac9-8ef9-1847a714a4a9)
+## 데이터 시각화 실습
+1. arduino의 미세먼지 센서 통해 데이터를 받아옴
+![KakaoTalk_20250523_193516824](https://github.com/user-attachments/assets/1d4ce16f-7ee2-4e3c-b0fa-170b43aa919b)
+2. 데이터를 grafana에서 InfluxDB(Data source)로 받음
+![KakaoTalk_20250523_193517276](https://github.com/user-attachments/assets/7d055004-eae8-4a9a-82da-4ca372b77188)
+3. grafana의 DashBoard로 시각화
+![image](https://github.com/user-attachments/assets/884abe12-c8e7-4abf-bee3-04b10145d8fc)
+
+
+## 텔레그램 봇 실습
+1. telegrambot/example/timer.py 에 api키 삽입
+2. /dust 핸들러 추가
+![image](https://github.com/user-attachments/assets/c2b902c8-0f4e-49c5-9a37-706db0480baa)
+3. 함수 구현
+![image](https://github.com/user-attachments/assets/6da4b0bb-c206-4014-8e05-fc04d8e49375)
+4. 테스트<br/>
+![KakaoTalk_20250523_194904131](https://github.com/user-attachments/assets/24971153-67a4-4d27-917a-810b1d6f5ff5)
