@@ -6,9 +6,16 @@
 ## OPENCV2 설치
 1. openCV2 Doc >> https://github.com/opencv/opencv
 2. 전체를 설치하기에는 용량이 너무 큼. 파이썬 라이브러리로 파이썬에서만 동작할 수 있도록 설치.<br/>
-```pip3 install opencv-python```
+```
+$ pip install opencv-contrib-python
+$ sudo apt-get install python3-opencv
+```
 
 ## Telegram Bot API KEY로 연동
+0. python Telegram API 설치
+```
+pip install python-telegram-bot --upgrade
+```
 1. Telegram botfather 로 봇 생성, API KEY 복사
 2. samples - timerbot.py 의 API KEY를 복사한 API KEY로 대체
 
