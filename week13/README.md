@@ -214,3 +214,8 @@ make telosb
 make telosb.(nodenum)
 ```
 ![image](https://github.com/user-attachments/assets/927dbbc3-f765-40c4-9e04-f89f966632df)
+
+6. 원리
+   - USB에 연결된 모듈에 프로그램 설치
+   - 모듈을 센서에 부착
+   - 센서로부터 무선통신(AM)으로 데이터를 전송받음
