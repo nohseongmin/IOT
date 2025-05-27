@@ -1,4 +1,4 @@
-# 9주차 실습
+# 10주차 실습
 1. OPENCV2 설치
 2. Telegram Bot API KEY로 연동
 3. Bot Sample - Timerbot 사용 실습
