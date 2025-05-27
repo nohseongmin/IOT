@@ -1,4 +1,4 @@
-# week 1
+# 2주차 수업내용
 + tinkercad
 + arduino install + practice
 
