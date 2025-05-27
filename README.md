@@ -1,25 +1,25 @@
 # InhaTechnicalColleage 2025 "IOT" practice data
 
-+ week 00
-  - safety trainning
 + week 01
-  - arduino install + practice
+  - safety trainning
 + week 02
-  - InfluxDB ~ arduino CONNECT
+  - arduino install + practice
 + week 03
-  - I2C protocol + arduino training
+  - InfluxDB ~ arduino CONNECT
 + week 04
-  - theory class
+  - I2C protocol + arduino training
 + week 05
   - theory class
-  - cygwin linux training
 + week 06
   - theory class
+  - cygwin linux training
 + week 07
-  - middle test
+  - theory class
 + week 08
+  - middle test
++ week 09
   - Raspberry Pi OS install
-+ week 10
++ week 11
   - TelegramBot ~ Raspberry Pi(& camera) CONNECT
   - OPENCV2 practice
 + week 12
