@@ -1,4 +1,4 @@
-# week3
+# 4주차 수업내용
 + I2C protocol 
   - Inter-Integrated Circuit
   - 단 이중통신 사용
