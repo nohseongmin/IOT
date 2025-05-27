@@ -19,9 +19,9 @@
   - middle test
 + week 08
   - Raspberry Pi OS install
-+ week 09
++ week 10
   - TelegramBot ~ Raspberry Pi(& camera) CONNECT
   - OPENCV2 practice
-+ week 10
++ week 12
   - Grafana ~ Raspberry Pi ~ arduino CONNECT
   - Grafana ( w/ InfluxDB ) practice
