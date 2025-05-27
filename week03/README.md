@@ -1,4 +1,4 @@
-# week 2
+# 3주차 수업내용
 + InfluxDB ~ arduino CONNECT
 + localhost DB 
 + using pip3, module install ( pip3 install ~~~~ )
