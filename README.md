@@ -22,3 +22,6 @@
 + week 09
   - TelegramBot ~ Raspberry Pi(& camera) CONNECT
   - OPENCV2 practice
++ week 10
+  - Grafana ~ Raspberry Pi ~ arduino CONNECT
+  - Grafana ( w/ InfluxDB ) practice
