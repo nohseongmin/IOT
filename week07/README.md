@@ -1,4 +1,4 @@
-# week 07
+# 7주차 수업내용
 ## 실습 
 ### 실습 사진
 ![image](https://github.com/user-attachments/assets/d278c1ef-2010-4ee4-8183-7655c4a7d40c)
