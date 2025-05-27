@@ -25,3 +25,6 @@
 + week 12
   - Grafana ~ Raspberry Pi ~ arduino CONNECT
   - Grafana ( w/ InfluxDB ) practice
++ week 13
+  - cygwin linux practice
+  - TinyOS 
