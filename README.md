@@ -28,3 +28,5 @@
 + week 13
   - cygwin linux practice
   - TinyOS 
++ week 14
+  - theory class
