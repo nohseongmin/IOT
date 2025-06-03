@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c76ef2a1-d89b-4852-ab06-bf1960a7ea75)# 14주차 수업내용 ( 이론 )
+# 14주차 수업내용 ( 이론 )
 1. Wi-Fi
 2. ZigBee
 
