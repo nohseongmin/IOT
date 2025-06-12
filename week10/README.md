@@ -4,6 +4,8 @@
 ```
 sudo apt-get install emacs gperf bison flex git build-essential automake avarice avr-libc avrdude binutils-avr gcc-avr gdb-avr subversion graphviz checkinstall openjdk-17-jdk git
 ```
+![image](https://github.com/user-attachments/assets/fd0856ca-53be-48ff-90e8-458c871ad4c7)
+
 
 ## 사전 설정
   - 1
@@ -73,6 +75,8 @@ $ cd 2024_inhatc/Zigbee/Oscilloscope/
 ```
 python oscilloscope.py serial@/dev/ttyUSB0:115200
 ```
+![image](https://github.com/user-attachments/assets/f1930865-d78b-43a1-91ff-9079b1eecc54)
+
 ## tos.py 복사
 ```
 $ mv ./tos.py /opt/tinyos-2.x/support/sdk/python/tos.py
